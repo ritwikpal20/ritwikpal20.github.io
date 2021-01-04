@@ -15,16 +15,19 @@ body {
     font-family: "Abel", sans-serif;
     color: #222831;
 }
-.top-container {
+.home {
     background-color: #ff7b54;
     margin: 0;
 }
-.middle-container {
+.my-projects {
     background-color: #ffb26b;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-.bottom-container {
+.contact-me {
     background-color: #ff7b54;
     margin: 0;
+    padding: 3rem;
 }
 h1 {
     margin-top: 0;
@@ -60,6 +63,12 @@ p {
     padding: 10px;
 }
 .projects img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    border: solid 10px #222831;
+}
+.profile-img {
     width: 20rem;
     height: 20rem;
     border-radius: 100%;
